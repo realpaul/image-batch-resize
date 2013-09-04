@@ -1,0 +1,7 @@
+{
+  "imagemagick": "/Users/paul/Desktop/ImageMagick-6.8.6",
+  "image_source": "/Users/paul/Desktop/Test1",
+  "image_dest": "/Users/paul/Desktop/Test2",
+  "resize_to": 1280,
+  "queue_size": 20
+}

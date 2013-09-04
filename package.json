@@ -1,0 +1,31 @@
+{
+  "name": "image-batch-resize",
+  "description": "A tool to resize image in bulk",
+  "keywords": [
+    "image",
+    "resize"
+  ],
+  "version": "0.1.0",
+  "author": "Paul Lv <paul@iamlv.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/realpaul/image-batch-resize"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/realpaul/image-batch-resize/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "async" :"0.2.9",
+    "imagemagick":"0.1.3"
+  },
+  "bin": {
+    "resize": "./bin/resize",
+  },
+  "main": "./lib/resize.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
